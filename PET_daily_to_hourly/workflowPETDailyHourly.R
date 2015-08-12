@@ -6,7 +6,7 @@ library("reshape")
 setwd("C:/Users/Christopher/Dropbox/code_tools/small_tools/pet_daily_to_hourly/")
 
 ##### call in source functions
-    source("source_pet_daily_to_hourly.R")
+    source("sourcePETDailyHourly.R")
 
 ##### call in example data
     data <- read.table("exampleData.txt", header = TRUE)
